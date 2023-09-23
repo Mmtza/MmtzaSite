@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap");
+
 *,
 html,
 body {
@@ -9,8 +11,7 @@ body {
 }
 
 header {
-  background: #bc7af9;
-  opacity: 0.9;
+  background: #300e51;
   color: #eaeaea;
   display: flex;
   flex-wrap: wrap;
@@ -23,6 +24,7 @@ header {
   margin-right: auto;
   display: flex;
   gap: 6px;
+  text-shadow: 2px 2px 4px rgba(239, 237, 237, 0.7);
 }
 
 .logo-img {
@@ -48,6 +50,7 @@ header {
   padding: 6px 12px;
   background-color: #7f00ff;
   border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(247, 245, 245, 0.9);
   color: #eaeaea;
   cursor: pointer;
 }
@@ -59,6 +62,7 @@ header {
 nav ul {
   display: flex;
   padding: 20px;
+  text-shadow: 2px 2px 4px rgba(239, 237, 237, 0.7);
 }
 
 li {
@@ -169,6 +173,7 @@ a {
 .title {
   font-size: 24px;
   font-weight: bold;
+  text-align: center;
 }
 
 .description {
@@ -191,7 +196,7 @@ a {
   scale: 1.1;
 }
 
-#jasa {
+#projects {
   margin-top: 10px;
 }
 
@@ -209,7 +214,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: #9c59dc;
+  background: #300e51;
   color: #eaeaea;
   padding: 40px;
 }
@@ -261,8 +266,14 @@ a {
 footer {
   padding: 20px;
   text-align: center;
-  background: #1a2238;
+  background: #300e51;
   color: #eaeaea;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+  color: #7f00ff;
+  text-shadow: 2px 2px 4px rgba(63, 60, 60, 0.7);
 }
 
 @media screen and (max-width: 720px) {
